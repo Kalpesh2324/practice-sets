@@ -6,6 +6,7 @@ Covers:
 - Writing a simple greeting program
 Goal: Understand how to use the JavaScript console effectively. */
 
+// Questions:-
 
 /*1. Print your name in the console.
 2. Print 5 different messages in the console, each on a new line.
@@ -29,5 +30,6 @@ console.log("This is the fifth message."); */
 /* This is mutlti line comment */
 
 // 4. console.log(10+15);
+
 
 // 5. console.log("Good morning! Kalpesh.");
