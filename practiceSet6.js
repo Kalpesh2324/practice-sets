@@ -16,52 +16,63 @@ Goal: Learn how to repeat tasks and control loop execution in JavaScript. */
 6. Use continue in a loop to skip multiples of 3 from 1 to 10. */
 
 // solutions:-
+
 /* 
-// 1. For loop 1 to 10
-for (let i = 1; i <= 10; i++) {
- console.log(i);
+// 1.
+
+for (let a = 1; a <=10; a++){
+    console.log(a);
 }
  */
 
-
 /* 
-// 2. While loop 10 to 1
-let i = 10;
-while (i >= 1) {
- console.log(i);
- i--;
+// 2.
+
+let a = 10;
+while(a>=1){
+    console.log(a);
+    a--;
 }
- */
-
+*/
 
 /* 
-// 3. Do...while 1 to 5
-let j = 1;
+// 3.
+
+let a = 1;
 do {
- console.log(j);
- j++;
-} while (j <= 5);
-// 4. Even numbers 1 to 20
-for (let k = 1; k <= 20; k++) {
- if (k % 2 === 0) console.log(k);
-}
- */
+    console.log(a);
+    a++;
+} while (a <= 5);
+ 
+*/
+
 
 /* 
-// 5. Break at 7
-for (let n = 1; n <= 10; n++) {
- if (n > 7) break;
- console.log(n);
+// 4.                                      
+
+for( let a = 1; a <=20;a++ ){
+    if(a%2===0){
+        console.log(a);
+    }
 }
  */
 
 
-/* // 6. Continue multiples of 3
-for (let m = 1; m <= 10; m++) {
- if (m % 3 === 0) continue;
- console.log(m);
+/* 
+//5.
+
+for ( let a = 1; a<=10; a++){
+    if(a>7) break;
+    console.log(a);
 }
  */
 
 
+/* 
 
+//6.
+
+for ( let a = 1; a <= 10; a++ ){
+    if(a%3===0) continue;
+        console.log(a);
+} */
