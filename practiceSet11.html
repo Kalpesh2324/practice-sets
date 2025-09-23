@@ -1,0 +1,87 @@
+<!-- Practice Set 11 — DOM Manipulation
+Covers:
+- Selecting elements (getElementById, querySelector, etc.)
+- Changing content and styles
+- Adding and removing elements dynamically
+- Basic event handling with addEventListener
+Goal: Learn how to interact with the webpage structure using JavaScript.
+*/-->
+
+<!--Questions:-
+1. Select an element by ID and change its text.
+2. Select all <p> elements and change their color.
+3. Create a new <div> element with some text and append it to the body.
+4. Remove an element from the page using JavaScript.
+5. Add a button and attach a click event that changes the background color of the
+page.
+6. Attach a mouseover event to an element that changes its text color.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <p class = "para">Hello!</p>
+ <p id = "text" class = "para">My Name is Kalpesh.</p>
+ <!--<p id = "remove" class = "para">I'm 23 years old.</p>
+ <button id = "bgchange">Click me to change the background.</button> -->
+ <script>
+    /*
+    //1. 
+    let para  = document.getElementById("para");
+    para.textContent = "Hello, I am a new paragraph."; 
+    */
+
+    /* 
+    //2.
+    let allPara = document.getElementsByClassName("para");
+    for( let i = 0; i<=allPara.length-1 ; i ++){
+        allPara[i].style.color="red";
+    } 
+    */
+    
+    /* 
+    //3.
+    let create = document.createElement("div");
+    create.textContent = "Hey, I'm a div created by you";
+    document.body.appendChild(create);
+     */
+
+    /* 
+    //4.
+    let remov = document.getElementById("remove");
+    remov.remove();
+    */
+
+    /* 
+    //5.
+    let colorChange = document.querySelector("#bgchange");
+    colorChange.addEventListener("click", changeColor =>{
+        document.body.style.backgroundColor="blue";
+        colorChange.textContent="Click me again to get back to normal."
+    });
+     */
+ /*
+ //6.  
+let textColor = document.querySelector("#text");
+
+textColor.addEventListener("mouseover", () => {
+    textColor.style.color = "red"; // Correct way to change text color
+});
+
+textColor.addEventListener("mouseout", () => {
+    textColor.style.color = ""; // Reset to original color when mouse leaves
+}); 
+*/
+ </script>   
+
+</body>
+</html>
+
+
+
+
+
